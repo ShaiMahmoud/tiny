@@ -1,0 +1,313 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+}
+.clear{
+    clear: both;
+}
+.section{
+    width: 100%;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+    box-sizing: border-box;
+}
+.section h2{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+.heroSection{
+    width: 100%;
+    height: auto;
+    padding: 52px 0px 100px 0px;
+    background: #fcdb00;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:50px;
+}
+.menu ul li a{
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.heroDesc{
+    float: left;
+    width: 50%;
+    padding-top: 145px;
+    box-sizing: border-box;
+}
+.heroApp{
+    float: left;
+    width: 50%;
+}
+ .heroDesc h1{
+     font-size: 32px;
+     font-weight: bold;  
+ }
+.heroSection .heroDesc h2{
+     font-size: 20px;
+     font-weight:normal;
+     color: #313841;
+     padding-right: 75px;
+     box-sizing: border-box;
+ }
+  
+ .heroDesc p{
+    font-size: 16px;
+    font-weight:normal;
+    color: #555555;
+    padding-right: 29px;
+    box-sizing: border-box;
+}
+.socialLinks{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.heroDesc .socialLinks a{
+    font-size: 42px;
+    font-weight:normal;
+    color: #010101;
+    margin-right:38px;
+    text-decoration: none;
+
+}
+.heroDesc .socialLinks a:last-child{
+    margin-right: 0px;
+}
+.heroApp img{
+    margin-top: 70px;
+    margin-left: 155px;
+}
+
+
+p.featuresPar{
+    font-size: 20px;
+    color: #313841;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.featureItem{
+    float: left;
+    width:33.3%;
+    height: auto;
+}
+.featureIcon{
+    float: left;
+    width: 60px;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-top:22px;
+}
+.featureDesc{
+    float: right;
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.featureDesc h3{
+    font-size: 22px;
+}
+.featureDesc p{
+    font-size: 16px;
+    color: #898989;
+}
+
+.keepInSection{
+    background: #010101;
+}
+.keepInSection h2{
+    color: #fcdb00;
+}
+ .keepInSection p.keepInPar{
+    color: #898989;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 100px;
+}
+.mailInput{
+height: 50px;
+border-radius: 4px;
+padding-left:25px;
+border: 0px;
+width: 580px;
+font-size: 16px;
+}
+.submitBtn{
+    background:#fcdb00;
+    color: #010101;
+    width:130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+    transition-duration: 0.2s;
+}
+.submitBtn:hover{
+    background:#c7ae05;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.keepInSection form{
+    text-align: center;
+    margin-top:30px;
+}
+.socialIcons{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top:80px;
+}
+.socialIcons a{
+    width: 37px;
+    height: 37px;
+    background: #fcdb00;
+    transition-duration: 0.2s;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 28px;
+    margin-left:35px;
+    line-height: 42px;
+    color: #010101;
+    text-decoration: none;
+   
+  
+}
+.socialIcons a:first-child{
+    margin-left: 0px;
+}
+.socialIcons a:hover{
+    background:#ceb516;
+    transition-duration: 0.2s;
+}
+
+
+
+.footerCol{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.footerCol p,
+.footerCol span{
+    color: #ffffff;
+}
+.footerCol span{
+    display: inline-block;
+    width: 100%;
+}
+.footerCol p,
+.footerCol ul{
+    margin: 0px;
+}
+.footerCol ul{
+    padding-left:70px;
+    box-sizing: border-box;
+}
+.footerCol ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.footerCol ul li a:hover{
+    color: #fcdb00;
+    transition-duration: 0.2s;
+}
+
+<!-- Testimonial Section Starts-->
+        <div class="testimonialSection globalSection">
+            <div class="container">
+                <h2>WHAT POEPLE SAY ABOUT US</h2>
+                <p class="testimonialPar" >Our clients love us!</p>
+                <div class="row">
+                    <div class="persons">
+                        <div class="personImage ">
+                                <img src="images/man3.jpg" alt="">
+                            </div>
+                            <div class="personInfo">
+                                <p class="personWords">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+
+                                </p>
+                                <h3 class="personName">Chanel Iman </h3>
+                                <h4 class="personPosition">CEO of Pinterest </h4>
+                            </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="persons">
+                            <div class="personImage ">
+                                    <img src="images/man3.jpg" alt="">
+                                </div>
+                                <div class="personInfo">
+                                    <p class="personWords">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
+
+                                    </p>
+                                    <h3 class="personName">ADRIANA LIMA </h3>
+                                    <h4 class="personPosition">Founder of Instagram</h4>
+                                </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="persons">
+                                <div class="personImage ">
+                                        <img src="images/man3.jpg" alt="">
+                                    </div>
+                                    <div class="personInfo">
+                                        <p class="personWords">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
+                                            
+                                        </p>
+                                        <h3 class="personName">ANNE HATHAWAY </h3>
+                                        <h4 class="personPosition">Lead Designer at Behance </h4>
+                                    </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="persons">
+                                    <div class="personImage ">
+                                            <img src="images/man3.jpg" alt="">
+                                        </div>
+                                        <div class="personInfo">
+                                            <p class="personWords">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.” </p>
+                                            <h3 class="personName">EMMA STONE </h3>
+                                            <h4 class="personPosition">Co-Founder of Shazam </h4>
+                                        </div>
+                                    <div class="clear"></div>
+                                </div>
+                <div class="clear"></div>
+                </div>
+                
+            </div> 
+         </div>
+        <!--Testimonial Section Ends -->
